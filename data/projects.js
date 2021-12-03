@@ -1,58 +1,52 @@
 export const projectsData = [
-  {
-    name: "Supaexpress",
-    description: `It is an Ecommerce website. Two type of authentication is there for Users. One is for
-    admin and second for a User. User have access to See products, add them into the cart also
-    User can made payment via PAYPAL. Admin have all the access of the website, admin can add,
-    remove and update the products and users details. I used Full Stack JavaScript to design
-    and develop supaexpress. I used Node, Express and MongoDB to design the REST APIs and
-    React & redux for frontend.`,
-    liveLink: "https://supaexpress.herokuapp.com/",
-    imageSrc: "/Images/supaexpress.png",
-    githubLink: "https://github.com/Randeep-Rana-au8/supaexpress-fullstack-app",
-    imageInLeft: false,
-  },
-  {
-    name: "Bankkr",
-    description: `Bankkr is a Fintech App's UI. I have used Reactjs and Styled components for frontend. Users can enjoy cool animation while hovering to buttons and content. Homepage contains diffent section like hero section, about, services, footer and some more info.
-    I will add the backend and signup functionality later. Till then enjoy the UI and Your feedback is always appriciated.
+	{
+		name: 'Zurichat',
+		description: `The future of remote work in the metaverse is being built.It is a platform that will power remote work in the web3 future and make it feel as good as sitting across the desk from your friends. Remote work that still allows for those moments of serependity. Building the `,
+		liveLink: 'https://www.zuri.chat/',
+		imageSrc: '/Images/zuri.png',
+		githubLink: 'https://github.com/zurichat',
+		imageInLeft: false,
+	},
+	{
+		name: 'FakeFlex',
+		description: `Fakeflix is a netflix clone. Netflix is a streaming service that offers a wide variety of award winning TV shows and movies. I have used Reactjs and Styled components for frontend and firebase for the backend. It is design to give near perfect experience of using the original netflix. I hope you like the implementation of the clone.
     `,
-    liveLink: "https://bankkr.netlify.app/",
-    githubLink: "https://github.com/Randeep-Rana-au8/bankkr",
-    imageSrc: "/Images/bankkr.png",
-    imageInLeft: true,
-  },
-  {
-    name: "Rock-Paper-Scissors",
-    description: `Rock Paper Scissors is a very popular game, So i decided to build it with Reactjs and Nodejs. I use React, Redux in frontend and Node.js, Express and Mongodb to handle Backend. If user want to play the game, first user need to register after that they can access the game and they can enjoy it.
+		liveLink: 'https://netflix-clone-ibrahim-isah.vercel.app/',
+		githubLink: 'https://github.com/Ibrahim-Isah/netflix',
+		imageSrc: '/Images/netflix.png',
+		imageInLeft: true,
+	},
+	{
+		name: 'Instagram Clone',
+		description: `Instagram Clone was a project created to showcase my skills of frontend development. The frontend was done using ReactJs and TailwindCSS and the backend was done using Firebase. Working on this project as my first major project using react has expand my knowledge of the library and development in general.`,
+		liveLink: 'https://instagram-clone-ibrahim-isah.vercel.app/',
+		githubLink: 'https://github.com/Ibrahim-Isah/instagram-clone',
+		imageSrc: '/Images/instagram.jpg',
+		imageInLeft: false,
+	},
+	{
+		name: 'Portfolio',
+		description: `Nextjs is used to build this amazing portfolio website, this is my latest project i have worked on in 2021. Nextjs is one of the best technology i have ever worked. It is fast smooth and trendy. I have used Plain css to make this design. Hope you liked it. Feel free to contact me. Your feedbacks are always appriciated.
     `,
-    liveLink: "https://rana-rps.netlify.app/",
-    githubLink: "https://github.com/Randeep-Rana-au8/Rock-Paper-Scissors",
-    imageSrc: "/Images/rps.png",
-    imageInLeft: false,
-  },
-  {
-    name: "Amazon Clone",
-    description: `Amazon is an Ecommerce website as you all already know😁. I build this clone with Reactjs, I have added add to cart functionaly in it so user can add products to the cart and get the sub total of products in cart page. Feel free to check the live website and your feedback is always appriciated.`,
-    liveLink: "https://my--clone-59e83.web.app/",
-    githubLink: "https://github.com/Randeep-Rana-au8/amazon-clone",
-    imageSrc: "/Images/amazon.png",
-    imageInLeft: true,
-  },
-  {
-    name: "Portfolio",
-    description: `Nextjs is used to build this amazing portfolio website, this is my latest project i have worked on in 2021. Nextjs is one of the best technology i have ever worked. It is fast smooth and trendy. I have used Plain css to make this design. Hope you liked it. Feel free to contact me. Your feedbacks are always appriciated.`,
-    liveLink: "",
-    githubLink: "",
-    imageSrc: "/Images/portfolioSS.png",
-    imageInLeft: false,
-  },
-  {
-    name: "Weather App",
-    description: `Reactjs is one of the most trending technology in 2021. Reactjs is used to build this weather application, I have used external API to get weather report. User can search the weather of any cities in the application. Please Do checkout the live link and feel free to contact me, Your feedback is always appriciated. `,
-    liveLink: "https://getweather-info.netlify.app/",
-    githubLink: "",
-    imageSrc: "/Images/weather.png",
-    imageInLeft: true,
-  },
+		liveLink: 'https://github.com/Ibrahim-Isah/',
+		githubLink: 'https://github.com/Ibrahim-Isah/',
+		imageSrc: '/Images/isah.png',
+		imageInLeft: false,
+	},
+	{
+		name: 'Bookmark Landing Page',
+		description: `The book mark landing page was a challenge from frontend mentor to create a static page using core html , css and vanilla javascript to bring the design to live. This project was initially done while i was trying to horn my CSS skills.`,
+		liveLink: 'https://ibrahim-isah.github.io/bookmark-landing-page-master/',
+		githubLink: 'https://github.com/Ibrahim-Isah/bookmark-landing-page-master',
+		imageSrc: '/Images/bookmark.jpg',
+		imageInLeft: true,
+	},
+	{
+		name: 'More Projects',
+		description: `I have other tons of project on my github where you can go and check other projects i have implemented like the foodninja and so many others. All my learning and other languages i am familiar with can be accessed on my github page. Feel free to reach out to me. `,
+		liveLink: 'https://github.com/Ibrahim-Isah',
+		githubLink: 'https://github.com/Ibrahim-Isah',
+		imageSrc: '/Images/github.png',
+		imageInLeft: true,
+	},
 ];
